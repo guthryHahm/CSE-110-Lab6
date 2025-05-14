@@ -102,7 +102,7 @@ function initFormHandler() {
 		main.append(recipeCardElement);
 		// B9. TODO - Get the recipes array from localStorage, add this new recipe to it, and
 		//            then save the recipes array back to localStorage
-		const recipes = JSON.parse(localStorage.getItem('recipes'));
+		let recipes = JSON.parse(localStorage.getItem('recipes'));
 		if (recipes == null){
 			recipes = [];
 		}
