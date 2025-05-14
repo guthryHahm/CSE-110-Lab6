@@ -52,7 +52,6 @@ class RecipeCard extends HTMLElement {
 
 		// A6. TODO - Select the <article> we added to the Shadow DOM in the constructor
 		const shadowArticle = this.shadowRoot.querySelector('article');
-		console.log(data);
 
 
 
